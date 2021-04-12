@@ -1,0 +1,16 @@
+PODS:
+  - CGraphicsCollection (0.1.0)
+
+DEPENDENCIES:
+  - CGraphicsCollection (from `../`)
+
+EXTERNAL SOURCES:
+  CGraphicsCollection:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGraphicsCollection: 631e040f9312e816907121748c3405c9076820cc
+
+PODFILE CHECKSUM: 7a704806cfcb5fdb8c02815d4209a44b183f4692
+
+COCOAPODS: 1.10.0
