@@ -1,0 +1,23 @@
+PODS:
+  - CGraphicsCollection (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CGraphicsCollection (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  CGraphicsCollection:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  CGraphicsCollection: 9e758af5273892752aa41ad6997e2f763e07f219
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 7a7b303c26af10d63b5da0989b2775d2e45507f2
+
+COCOAPODS: 1.10.0

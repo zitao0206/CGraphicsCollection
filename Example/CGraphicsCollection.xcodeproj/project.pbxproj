@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23F67009FB23DD0DE50F6497 /* Pods_CGraphicsCollection_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBCB577FB594EA856083E1D2 /* Pods_CGraphicsCollection_Example.framework */; };
+		12591BD8C5E9B4350C3A66CE /* libPods-CGraphicsCollection_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7900D4C688147C7BFA21E60D /* libPods-CGraphicsCollection_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E854DEBA72BEF21259B67AA8 /* Pods_CGraphicsCollection_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E908A5FC8084A91F1090FB /* Pods_CGraphicsCollection_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25E908A5FC8084A91F1090FB /* Pods_CGraphicsCollection_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGraphicsCollection_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F60876AB65A4710767E50B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		56CE842E68E3AA0D6DA77B78 /* Pods-CGraphicsCollection_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGraphicsCollection_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CGraphicsCollection_Tests/Pods-CGraphicsCollection_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CGraphicsCollection_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGraphicsCollection_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +57,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7BC3652C8FC8BE00E92D83C0 /* Pods-CGraphicsCollection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGraphicsCollection_Example.release.xcconfig"; path = "Target Support Files/Pods-CGraphicsCollection_Example/Pods-CGraphicsCollection_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7900D4C688147C7BFA21E60D /* libPods-CGraphicsCollection_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGraphicsCollection_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC3652C8FC8BE00E92D83C0 /* Pods-CGraphicsCollection_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGraphicsCollection_Example.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CGraphicsCollection_Example/Pods-CGraphicsCollection_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E46C9EFCAD5261172EB5E14 /* CGraphicsCollection.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CGraphicsCollection.podspec; path = ../CGraphicsCollection.podspec; sourceTree = "<group>"; };
-		D90A997F576B49DA36A1BAF8 /* Pods-CGraphicsCollection_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGraphicsCollection_Tests.release.xcconfig"; path = "Target Support Files/Pods-CGraphicsCollection_Tests/Pods-CGraphicsCollection_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DCDA37F4D579F1D84D136A7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DD2B6D877BC1E57AC54CB38C /* Pods-CGraphicsCollection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGraphicsCollection_Example.debug.xcconfig"; path = "Target Support Files/Pods-CGraphicsCollection_Example/Pods-CGraphicsCollection_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EBCB577FB594EA856083E1D2 /* Pods_CGraphicsCollection_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGraphicsCollection_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2B6D877BC1E57AC54CB38C /* Pods-CGraphicsCollection_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGraphicsCollection_Example.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CGraphicsCollection_Example/Pods-CGraphicsCollection_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +73,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				23F67009FB23DD0DE50F6497 /* Pods_CGraphicsCollection_Example.framework in Frameworks */,
+				12591BD8C5E9B4350C3A66CE /* libPods-CGraphicsCollection_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +84,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E854DEBA72BEF21259B67AA8 /* Pods_CGraphicsCollection_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +118,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				EBCB577FB594EA856083E1D2 /* Pods_CGraphicsCollection_Example.framework */,
-				25E908A5FC8084A91F1090FB /* Pods_CGraphicsCollection_Tests.framework */,
+				7900D4C688147C7BFA21E60D /* libPods-CGraphicsCollection_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,8 +184,6 @@
 			children = (
 				DD2B6D877BC1E57AC54CB38C /* Pods-CGraphicsCollection_Example.debug.xcconfig */,
 				7BC3652C8FC8BE00E92D83C0 /* Pods-CGraphicsCollection_Example.release.xcconfig */,
-				56CE842E68E3AA0D6DA77B78 /* Pods-CGraphicsCollection_Tests.debug.xcconfig */,
-				D90A997F576B49DA36A1BAF8 /* Pods-CGraphicsCollection_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -208,7 +200,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2529074BC3957F1D0DAA42BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +214,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CGraphicsCollection_Tests" */;
 			buildPhases = (
-				4320DC9E723E4EB8E903448B /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -311,46 +301,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CGraphicsCollection_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2529074BC3957F1D0DAA42BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CGraphicsCollection_Example/Pods-CGraphicsCollection_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CGraphicsCollection/CGraphicsCollection.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CGraphicsCollection.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CGraphicsCollection_Example/Pods-CGraphicsCollection_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4320DC9E723E4EB8E903448B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CGraphicsCollection_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -523,7 +473,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56CE842E68E3AA0D6DA77B78 /* Pods-CGraphicsCollection_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +497,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D90A997F576B49DA36A1BAF8 /* Pods-CGraphicsCollection_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
