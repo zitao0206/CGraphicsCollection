@@ -9,7 +9,6 @@
 #ifndef Header_h
 #define Header_h
 #import <Masonry/Masonry.h>
-#import <SVProgressHUD/SVProgressHUD.h>
 #import "UIView+EasyLayout.h"
 #import "UIColor+Ext.h"
 #import "NSBundle+CUIBundle.h"
@@ -21,3 +20,4 @@
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kScreenCenterX [UIScreen mainScreen].bounds.size.width / 2.0
 #define kScreenCenterY [UIScreen mainScreen].bounds.size.height / 2.0
+#define kstatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height 
