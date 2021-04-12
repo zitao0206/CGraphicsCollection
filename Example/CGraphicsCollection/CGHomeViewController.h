@@ -1,5 +1,5 @@
 //
-//  CGViewController.h
+//  CGHomeViewController.h
 //  CGraphicsCollection
 //
 //  Created by Leon0206 on 04/12/2021.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface CGViewController : UIViewController
+@interface CGHomeViewController : UIViewController
 
 @end

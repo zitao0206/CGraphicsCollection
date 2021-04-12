@@ -31,10 +31,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CGraphicsCollection/Classes/**/*'
+
+  s.prefix_header_file = 'CGraphicsCollection/CGraphicsCollection.pch'
   
-  # s.resource_bundles = {
-  #   'CGraphicsCollection' => ['CGraphicsCollection/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'CGraphicsCollection' => ['CGraphicsCollection/Assets/*.*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

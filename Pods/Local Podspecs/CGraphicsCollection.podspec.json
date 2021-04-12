@@ -19,6 +19,12 @@
     "ios": "10.0"
   },
   "source_files": "CGraphicsCollection/Classes/**/*",
+  "prefix_header_file": "CGraphicsCollection/CGraphicsCollection.pch",
+  "resource_bundles": {
+    "CGraphicsCollection": [
+      "CGraphicsCollection/Assets/*.*"
+    ]
+  },
   "dependencies": {
     "Masonry": [
 

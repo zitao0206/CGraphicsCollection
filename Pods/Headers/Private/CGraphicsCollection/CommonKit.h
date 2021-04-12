@@ -1,0 +1,1 @@
+../../../../CGraphicsCollection/Classes/Common/CommonKit.h
