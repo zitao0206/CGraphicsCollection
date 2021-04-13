@@ -1,0 +1,1 @@
+../../../../CGraphicsCollection/Classes/TopArea/LoopView/CGLoopView.h

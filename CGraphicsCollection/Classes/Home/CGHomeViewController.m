@@ -86,11 +86,31 @@
  
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *contentCell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell"];
-    if (!contentCell) {
-        contentCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCell"];
+    UITableViewCell *contentCell = nil;
+    if (indexPath.section == 0) {
+        contentCell = [tableView dequeueReusableCellWithIdentifier:@"CGHomeTopCell"];
+        if (!contentCell) {
+            contentCell = [[CGHomeTopCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CGHomeTopCell"];
+        }
+        contentCell.backgroundColor = [UIColor blackColor];
+    } else
+    if (indexPath.section == 1) {
+        contentCell = [tableView dequeueReusableCellWithIdentifier:@"CGHomeMiddleCell"];
+        if (!contentCell) {
+            contentCell = [[CGHomeMiddleCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CGHomeMiddleCell"];
+        }
+        contentCell.backgroundColor = [UIColor redColor];
+    } else
+    if (indexPath.section == 2) {
+        contentCell = [tableView dequeueReusableCellWithIdentifier:@"CGHomeBottomCell"];
+        if (!contentCell) {
+            contentCell = [[CGHomeBottomCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CGHomeBottomCell"];
+        }
+        contentCell.backgroundColor = [UIColor redColor];
+    
+    } else {
+        contentCell = [UITableViewCell new];
     }
-    contentCell.backgroundColor = [UIColor redColor];
     contentCell.accessoryType = UITableViewCellAccessoryNone;
     contentCell.selectionStyle = UITableViewCellSelectionStyleNone;
     return contentCell;

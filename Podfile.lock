@@ -1,7 +1,11 @@
 PODS:
   - CGraphicsCollection (0.1.0):
     - Masonry
+    - SDWebImage
   - Masonry (1.1.0)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
 
 DEPENDENCIES:
   - CGraphicsCollection (from `./`)
@@ -9,14 +13,16 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Masonry
+    - SDWebImage
 
 EXTERNAL SOURCES:
   CGraphicsCollection:
     :path: "./"
 
 SPEC CHECKSUMS:
-  CGraphicsCollection: 46820d4803001b0ff68220c7e9a224d7fa877b67
+  CGraphicsCollection: df0b1077bd0f8109b849f36ddd699ae2e7c49060
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
 
 PODFILE CHECKSUM: 7a7b303c26af10d63b5da0989b2775d2e45507f2
 
